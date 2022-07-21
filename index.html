@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>HTML код формы</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="form">
+            <form action="#" id="form" class="form__body">
+                <h1 class="form__title">Отправить документы</h1>
+                <div class="form__item">
+                    <label for="formPerson" class="form__label">ФИО</label>
+                    <input id="formPerson" name="person" type="text" class="form__input" required>
+                </div>
+                <div class="form__item">
+                    <label for="formPassport" class="form__label">Паспорт</label>
+                    <input id="formPasport" name="passport" type="text" class="form__input" placeholder="серия и номер"
+                        required>
+                    <input id="formFilePassport" type="file" name="image" class="form__file" multiple>
+                </div>
+                <div class="form__item">
+                    <label for="formСertificate" class="form__certificate">Свидетельство</label>
+                    <input id="formСertificate" name="certificate" type="text" class="form__input" required>
+                    <input id="formFilePassport" type="file" name="image" class="form__file" multiple>
+                </div>
+                <div class="form__item">
+                    <label for="formDocuments" class="form__documents">Дополнительные документы</label>
+                    <input id="formDocuments" name="certificate" type="text" class="form__input" required>
+                    <input id="formFileDocuments" type="file" name="image" class="form__file" multiple>
+                </div>
+                <div class="form__text">
+                    <p>Добавить ещё файлы</p>
+                </div>
+                <button type="submit" class="form__button">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
