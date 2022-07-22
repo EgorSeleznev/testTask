@@ -8,6 +8,7 @@
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .form__input {
@@ -16,6 +17,7 @@
 
 .form__item {
     margin-bottom: 20px;
+
 }
 
 .form__label {
@@ -43,4 +45,19 @@
 
 .error {
     border-color: red;
+}
+
+.form__addFile {
+    display: inline-flex;
+    text-decoration: underline;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.form__addFile input {
+    display: none;
+}
+
+.form__files {
+    text-align: center;
 }

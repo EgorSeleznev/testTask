@@ -34,9 +34,13 @@
                     <input id="formDocuments" name="certificate" type="text" class="form__input" required>
                     <input id="formFileDocuments" type="file" name="image" class="form__file" multiple>
                 </div>
-                <div class="form__text">
-                    <p>Добавить ещё файлы</p>
+                <div class="form__files">
+                    <label for="addFile" class="form__addFile">
+                        <input id="addFile" type="file" />
+                        Добавить ещё файлы
+                    </label>
                 </div>
+
                 <button type="submit" class="form__button">Отправить</button>
             </form>
         </div>
