@@ -16,29 +16,26 @@
                 <h1 class="form__title">Отправить документы</h1>
                 <div class="form__item">
                     <label for="formPerson" class="form__label">ФИО</label>
-                    <input id="formPerson" name="person" type="text" class="form__input" required>
+                    <input id="formPerson" name="formPerson" type="text" class="form__input" required>
                 </div>
                 <div class="form__item">
                     <label for="formPassport" class="form__label">Паспорт</label>
-                    <input id="formPasport" name="passport" type="text" class="form__input" placeholder="серия и номер"
-                        required>
-                    <input id="formFilePassport" type="file" name="image" class="form__file" multiple>
+                    <input id="formPasport" name="FormPassport" type="text" class="form__input"
+                        placeholder="серия и номер" required>
+                    <input id="formFilePassport" type="file" name="PasportImage" class="form__file" multiple>
                 </div>
                 <div class="form__item">
                     <label for="formСertificate" class="form__certificate">Свидетельство</label>
                     <input id="formСertificate" name="certificate" type="text" class="form__input" required>
-                    <input id="formFilePassport" type="file" name="image" class="form__file" multiple>
+                    <input id="formFilePassport" type="file" name="CertificateImage" class="form__file" multiple>
                 </div>
-                <div class="form__item">
+                <div class="form__item hide" id="docs">
                     <label for="formDocuments" class="form__documents">Дополнительные документы</label>
-                    <input id="formDocuments" name="certificate" type="text" class="form__input" required>
-                    <input id="formFileDocuments" type="file" name="image" class="form__file" multiple>
+                    <input id="formDocuments" name="addFiles" type="text" class="form__input">
+                    <input id="formFileDocuments" type="file" name="addImageFiles" class="form__file" multiple>
                 </div>
                 <div class="form__files">
-                    <label for="addFile" class="form__addFile">
-                        <input id="addFile" type="file" />
-                        Добавить ещё файлы
-                    </label>
+                    <p>Добавить ещё файлы</p>
                 </div>
 
                 <button type="submit" class="form__button">Отправить</button>

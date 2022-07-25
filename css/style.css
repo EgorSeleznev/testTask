@@ -47,17 +47,21 @@
     border-color: red;
 }
 
-.form__addFile {
-    display: inline-flex;
-    text-decoration: underline;
-    padding-bottom: 30px;
-    cursor: pointer;
-}
-
 .form__addFile input {
     display: none;
 }
 
 .form__files {
     text-align: center;
+}
+
+.form__files p {
+    display: inline-flex;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.hide {
+    display: none;
 }
